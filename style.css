@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  /* Collapsing the first navbar */
+  @media (max-width: 1280px) {
+      #navbarCollapse {
+        display: none;
+      }
+    }
+  
+  p {
+    margin-bottom: 0px;
+  }
+
+  .hov:hover{
+    background-color: rgb(169, 179, 169);
+  }
+
+  .icons {
+    font-size: 14px;
+    margin-top: 19px;
+    font-weight: bold;
+    color: rgb(58, 94, 58);
+  }
+  
+  /* To horizontally align the text with icon */
+  @media (max-width: 768px) {
+    .icons {
+      margin-top: 0px;
+      padding-left: 1rem;
+    }
+  }
+  
+  /* Making the request button at the top */
+  @media (max-width:500px) {
+    #headerSection > a {
+      order: 2;
+    }
+  }
+  @media (max-width:500px) {
+    #headerSection #menu {
+      order: 3;
+    }
+  }
+  @media (max-width:500px) {
+    #headerSection button {
+      width:100%;
+    }
+  }
+  
+  /* Hiding the Menu button */
+  @media (min-width: 1280px) {
+    #menu {
+      display: none;
+    }
+  }
+  
+  /* Footer last section styling */
+  .line
+  {
+      color: #335b4c;
+      font-size: 1rem;
+      border: none; 
+      border-top: 3rem;
+  }
+  
